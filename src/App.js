@@ -19,7 +19,7 @@ function App() {
       const cookies = new Cookies();
       const currentUrl = window.location.href;
       cookies.set('CALLBACK_URL', currentUrl, { path: '/' });
-      window.location.replace("http://localhost:3001/sso"); // change this to bizprac sso url
+      window.location.replace("http://localhost:3001/sso"); // change this to  sso url
     }
   });
 
@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-fheader">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           authorizer test page.
